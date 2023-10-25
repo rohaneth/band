@@ -1,12 +1,12 @@
 var audio = [
-  new Audio("sounds/tom-1.mp3"),
-  new Audio("sounds/tom-2.mp3"),
-  new Audio("sounds/tom-3.mp3"),
-  new Audio("sounds/tom-4.mp3"),
-  new Audio("sounds/snare.mp3"),
-  new Audio("sounds/crash.mp3"),
-  new Audio("sounds/kick-bass.mp3"),
-  new Audio("sounds/tom-1.mp3")
+  new Audio("tom-1.mp3"),
+  new Audio("tom-2.mp3"),
+  new Audio("tom-3.mp3"),
+  new Audio("tom-4.mp3"),
+  new Audio("snare.mp3"),
+  new Audio("crash.mp3"),
+  new Audio("kick-bass.mp3"),
+  new Audio("tom-1.mp3")
       ]
 for(let i = 0; i<7;i++){
 document.querySelectorAll("button")[i].addEventListener("click" , function (){
